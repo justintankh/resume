@@ -105,18 +105,18 @@ let opt = {
     image: { type: 'jpeg', quality: 0.98 },
     html2canvas: { scale: 4 },
     jsPDF: { format: 'a4', orientation: 'portrait' }
-};
-
-// New Promise-based usage:
-html2pdf().set(opt).from(element).save();
-
-// Old monolithic-style usage:
-html2pdf(element, opt);
+}
 
 // Function to call areaCv and Html2Pdf options 
 function generateResume() {
-    html2pdf(areaCv, opt)
+    html2pdf(areaCv)
 }
+
+// New Promise-based usage:
+// html2pdf().set(opt).from(element).save();
+
+// Old monolithic-style usage:
+// html2pdf(element, opt);
 
 // When the button is clicked, it executes the three functions
 resumeButton.addEventListener('click', () => {
