@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive resume cv</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">JTKH</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Profile
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Education
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>Certificates
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#references" class="nav__link">
+                            <i class='bx bx-link-external nav__icon'></i>References
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/self1.jpg" alt="" class="home__img">
+
+                            <h1 class="home__title">JUSTIN <b>TAN</b> KOON HAN</h1>
+                            <h3 class="home__profession">Software engineer</h3>
+
+                            <!-- Button to generate and download the pdf. Available for desktop. -->
+                            <div>
+                                <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon' ></i> Singapore, Pasir Ris Dr 1 BLK 532
+                                </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon' ></i> justintankh@gmail.com
+                                </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon' ></i> +65 9274 7768
+                                </span>
+                        </div>
+                    </div>
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/JTKH/" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon'></i> @JTKH
+                            </a>
+                            <a href="https://www.instagram.com/justintankoonhan" target="_blank" class="social__link">
+                                <i class='bx bxl-instagram social__icon'></i> @justintankoonhan
+                            </a>
+                            <a href="https://t.me/justintankoonhan" target="_blank" class="social__link">
+                                <i class='bx bxl-telegram social__icon'></i> @justintankoonhan
+                            </a>
+
+                        </div>
+                    </section>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+                    <p class="profile__description">
+                        Penultimate undergraduate with NTU, in Electrical Electronics Engineering specializing in Computer Engineering. Passionate about software engineering, in Datascience and AI. Have experience with working on machine learning applications.
+                    </p>
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Bachelor of Engineering - Electrical Electronics Engineering</h3>
+                                <span class="education__studies">Nanyang Technological University</span>
+                                <span class="education__year">2019 - 2022</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Diploma in Aerospace Electronics</h3>
+                                <span class="education__studies">Temasek Polytechnic</span>
+                                <span class="education__year">2014 - 2017</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Diploma Plus in Business Fundamentals</h3>
+                                <span class="education__studies">Temasek Polytechnic</span>
+                                <span class="education__year">2015 - 2017</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+
+
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Html
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Css
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Javascript
+                            </li>
+                        </ul>
+
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> NodeJS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> DiscordJS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> ReactJs
+                            </li>
+                        </ul>
+
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Python
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> C++
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Software Engineer (Internship)</h3>
+                                    <span class="experience__company">From Jan 2021 (6 mths) | Home Team Science and Technology Agency</span>
+                                    <p class="experience__description">
+                                        <!-- Handled development, integration and testing of two machine learning projects: Gait Recognition in Python, and also Camera Tracking System in C++. -->Developed closeness matching algorithm, applied clustering for formulation of Identification template and illustrated results for 'Gait Recognition' in Python. Integrated YOLOv4, depth estimator, EO Fusion Engine,
+                                        Kalman filter and Hungarian algorithm for 'Geographical and Visual Camera Tracking System' in C++.</p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">UI / UX and Treasurer (Academic Project)</h3>
+                                    <span class="experience__company">From Jul 2020 (5 mths) | Nanyang Technological University</span>
+                                    <p class="experience__description">Development and integration of UI / UX for 'Monitoring the Crowd by Deep Learning Enabled Visual Analytics'. Handled frontend and backend, including Flask for Python code integration with web application.</p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Transport Section Leader (National Service)</h3>
+                                    <span class="experience__company">From Dec 2018 (5 mths) | Singapore Armed Forces</span>
+                                    <p class="experience__description">Coordinated and command troop lifting missions involving vehicles of 8, in convoy for support. Leader, trainer and friend to 27 soldiers.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificates</h2>
+
+                    <div class="certificate__container bd-grid">
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Image Clasification with CNNs using Keras (Coursera)</h3>
+                            <p class="certificate_description">Implement CNN in Keras with Tensorflow backend, Train CNN to solve Image Classification</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">C++ Programming - From Beginner to Beyond (Udemy)</h3>
+                            <p class="certificate_description">41.5 Hrs of C++ Programming Crash Course</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Python Datastructures (Coursera)</h3>
+                            <p class="certificate_description">Awarded by University of Michigan offered through Coursera. Principles of data structures and how they are used.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Using Databases with Python (Coursera)</h3>
+                            <p class="certificate_description">Awarded by University of Michigan offered through Coursera. Use operations to manage databases.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Using Python to Access Web Data (Coursera)</h3>
+                            <p class="certificate_description">Awarded by University of Michigan offered through Coursera. Retrieve data from websites and APIs using Python. Work with XML data.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Commanding Officer Coin (National Service)</h3>
+                            <p class="certificate_description">Impressed superiors by displaying Professionalism and Diligence as a Section Commander in managing my Team.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certificate in Business Fundamentals (Temasek Polytechnic)</h3>
+                            <p class="certificate_description">Along side Diploma, studied Fundamentals of Business management, Introductory Economics, Introduction to Marketing, Basic Financial Accounting.</p>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!--========== REFERENCES ==========-->
+                <section class="references section" id="references">
+                    <h2 class="section-title">References</h2>
+
+                    <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Deputy Director</span>
+                            <h3 class="references__title">Mr. TAN Kheng Hwee</h3>
+                            <ul class="references__contact">
+                                <li>Phone: +65 9478 9825</li>
+                                <li>Email: TAN_Kheng_Hwee@htx.gov.sg</li>
+                            </ul>
+                        </div>
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Infantry Leader</span>
+                            <h3 class="references__title">Mr. Daniel YEO Kai</h3>
+                            <ul class="references__contact">
+                                <li>Phone: +65 9123 1784</li>
+                                <li>Email: danielyeo196@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">Langauges</h2>
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Mandarin
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-joystick-button interests__icon'></i>
+                            <span class="interests__name">Video Games</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-book interests__icon'></i>
+                            <span class="interests__name">Reading</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-dumbbell interests__icon'></i>
+                            <span class="interests__name">Fitness</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-chat interests__icon'></i>
+                            <span class="interests__name">Socializing</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bxs-up-arrow-alt scrolltop__icon'></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
